@@ -20,5 +20,15 @@
   "bugs": {
     "url": "https://github.com/carmo-montana/MindSync/issues"
   },
-  "homepage": "https://github.com/carmo-montana/MindSync#readme"
+  "homepage": "https://github.com/carmo-montana/MindSync#readme",
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.3"
+  },
+  "dependencies": {
+    "@types/express": "^5.0.0",
+    "@types/nodemon": "^1.19.6",
+    "express": "^4.21.2",
+    "nodemon": "^3.1.9"
+  }
 }
