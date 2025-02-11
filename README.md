@@ -16,5 +16,8 @@
    ```bash
    git clone https://github.com/seu-usuario/MindSync.git
 
+## Licença
+
+Este projeto está licenciado sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
+
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
-[![CI](https://github.com/seu-usuario/MindSync/actions/workflows/ci.yml/badge.svg)](https://github.com/seu-usuario/MindSync/actions/workflows/ci.yml)
