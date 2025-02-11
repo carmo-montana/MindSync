@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "nodemon --exec ts-node ./src/index.ts",
     "dist": "node ./src/index.js",
-    "test": "jest"
+    "test": "jest"  
   },
   "repository": {
     "type": "git",
