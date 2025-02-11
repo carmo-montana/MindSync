@@ -8,6 +8,9 @@
     "test": "tests"
   },
   "scripts": {
+    "dev": "nodemon --exec ts-node ./src/index.ts",
+    "start": "node dist/index.js",
+    "build": "tsc",
     "test": "jest"
   },
   "repository": {
