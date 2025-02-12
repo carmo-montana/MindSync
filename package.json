@@ -9,7 +9,7 @@
   },
   "scripts": {
     "dev": "nodemon --exec ts-node ./src/index.ts",
-    "start": "node dist/index.js",
+    "dist": "node ./src/index.js",
     "build": "tsc",
     "test": "jest"
   },
@@ -25,10 +25,32 @@
   },
   "homepage": "https://github.com/carmo-montana/MindSync#readme",
   "devDependencies": {
+    "@types/bcrypt": "^5.0.2",
+    "@types/dotenv": "^8.2.3",
+    "@types/express": "^5.0.0",
     "@types/jest": "^29.5.14",
+    "@types/multer": "^1.4.12",
+    "@types/nodemailer": "^6.4.17",
+    "@types/uuid": "^10.0.0",
+    "dotenv": "^16.4.7",
     "jest": "^29.7.0",
     "ts-jest": "^29.2.5",
     "ts-node": "^10.9.2",
     "typescript": "^5.7.3"
+  },
+  "dependencies": {
+    "@types/axios": "^0.14.4",
+    "@types/nodemon": "^1.19.6",
+    "axios": "^1.7.9",
+    "bcrypt": "^5.1.1",
+    "bcryptjs": "^2.4.3",
+    "express": "^4.21.2",
+    "joi": "^17.13.3",
+    "jsonwebtoken": "^9.0.2",
+    "multer": "^1.4.5-lts.1",
+    "nodemailer": "^6.10.0",
+    "nodemon": "^3.1.9",
+    "pg": "^8.13.2",
+    "uuid": "^11.0.5"
   }
 }
